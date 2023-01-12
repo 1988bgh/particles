@@ -1,0 +1,13 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "base/base";
+@import "base/fonts";
+
+.scroll-wrap {
+  width: 100%;
+  height: 400vh;
+}
+section {
+  position: sticky;
+  top: 0;
+}
